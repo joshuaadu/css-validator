@@ -1,0 +1,39 @@
+.icon {
+  margin-right: 0.5rem;
+}
+.lists {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 1rem 0.5rem;
+  margin-top: 1rem;
+}
+.list {
+  padding: 0.5rem;
+}
+.list + .list {
+  margin-top: 0.5rem;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.heading span {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+.line {
+  color: blue;
+  margin-left: auto;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: rgb(255, 0, 0, 0.6);
+}
