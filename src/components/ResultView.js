@@ -13,11 +13,11 @@ const ResultView = (props) => {
         <h2>Results</h2>
         <div>
           <b>Validated URL: </b>
-          {props.results.uri}
+          <a href={props.results.uri}>{props.results.uri}</a>
         </div>
         <div>
           <b>Validated By: </b>
-          {props.results.checkedby}
+          <a href={props.results.checkedby}>{props.results.checkedby}</a>
         </div>
         <div>
           <b>Time of validation: </b>
