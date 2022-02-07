@@ -1,4 +1,4 @@
-# CSS Validator(webapp for CSS check)
+# CSS Checker(webapp for CSS check)
 
 ## Live Demo
 https://w4by7.csb.app/
