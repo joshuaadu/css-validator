@@ -10,14 +10,3 @@
 .list + .list {
   margin-top: 0.5rem;
 }
-
-.heading {
-  display: flex;
-  flex-wrap: wrap;
-  /* justify-content: space-between; */
-}
-
-.heading span {
-  display: inline-block;
-  padding-right: 0.5rem;
-}
