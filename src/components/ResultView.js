@@ -11,9 +11,18 @@ const ResultView = (props) => {
     <Fragment>
       <section>
         <h2>Results</h2>
-        <div>Validated URL: {props.results.uri}</div>
-        <div>Validated By: {props.results.checkedby}</div>
-        <div>Time of validation: {date}</div>
+        <div>
+          <b>Validated URL: </b>
+          {props.results.uri}
+        </div>
+        <div>
+          <b>Validated By: </b>
+          {props.results.checkedby}
+        </div>
+        <div>
+          <b>Time of validation: </b>
+          {date}
+        </div>
       </section>
       {props.results.errors && (
         <ResultList lists={props.results.errors} type="error" />

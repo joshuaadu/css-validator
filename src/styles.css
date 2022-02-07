@@ -2,11 +2,18 @@
 * {
   box-sizing: border-box;
 }
+body {
+  width: 100%;
+  /* overflow-x: hidden; */
+  margin: 5px;
+}
 .App {
   /* font-family: sans-serif; */
-  /* text-align: left; */
+  /* text-align: center; */
   font-family: "Fira Sans", sans-serif;
   /* font-family: "Montserrat", sans-serif; */
   /* letter-spacing: 1px; */
   width: 100%;
+  display: grid;
+  justify-items: center;
 }

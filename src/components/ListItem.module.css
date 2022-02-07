@@ -1,0 +1,20 @@
+.line {
+  color: blue;
+  margin-left: auto;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: rgb(255, 0, 0, 0.6);
+}
+
+.cap-first-letter::first-letter {
+  text-transform: capitalize;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}

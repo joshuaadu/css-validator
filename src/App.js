@@ -9,6 +9,7 @@ export default function App() {
   return (
     <QueryClientProvider client={queryClient} contextSharing={true}>
       <div className="App">
+        <h1>CSS Checker</h1>
         <Main />
       </div>
       <ReactQueryDevtools initialIsOpen={false} />
